@@ -3,8 +3,14 @@ import React from "react";
 const CTA = () => {
 	return (
 		<div className='cta'>
-			<a href=''>Socials</a>
-			<a href=''>Let's Talk</a>
+			<a href='#socials' className='btn'>
+				{" "}
+				Socials{" "}
+			</a>
+			<a href='#contact' className='btn btn-primary'>
+				{" "}
+				Let's Talk{" "}
+			</a>
 		</div>
 	);
 };
