@@ -11,12 +11,12 @@
 }
 
 :root {
-	--color-bg: #0e1bd6;
-	--color-bg-variant: #2c2c6c;
-	--color-primary: #4db5ff;
-	--color-primary-variant: rbga(77, 181, 255, 0.4);
+	--color-bg: #656565;
+	--color-bg-variant: #000000;
+	--color-primary: #c0ff6b;
+	--color-primary-variant: #345d00;
 	--color-white: #fff;
-	--color-light: rgba(255, 255, 255, 0.6);
+	--color-light: #d5d5d599;
 
 	--transition: all 400ms ease;
 
@@ -121,7 +121,7 @@ img {
 
 @media screen and (max-width: 1024px) {
 	.container {
-		width: var(--container-width-md);
+		width: var(--container-width-lg);
 	}
 
 	section {
@@ -133,7 +133,7 @@ img {
 
 @media screen and (max-width: 600px) {
 	.container {
-		width: var(--container-width-sm);
+		width: var(--container-width-lg);
 	}
 
 	section {
