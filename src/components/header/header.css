@@ -45,7 +45,7 @@ video {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.9);
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* CTA buttons */
@@ -65,7 +65,7 @@ video {
 	align-items: center;
 	gap: 0.8rem;
 	position: absolute;
-	left: 0;
+	left: 2rem;
 	bottom: 3rem;
 }
 
@@ -80,8 +80,8 @@ video {
 
 .scroll__down {
 	position: absolute;
-	right: -2.3rem;
-	bottom: 5rem;
+	right: 0;
+	bottom: 7rem;
 	transform: rotate(90deg);
 	font-weight: 300;
 	font-size: 0.9rem;
