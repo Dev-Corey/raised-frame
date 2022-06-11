@@ -11,11 +11,13 @@ const About = () => {
 			<h2>About Us</h2>
 
 			<div className='container about__container'>
-				<div className='about__me'>
-					<div className='about__me-image'>
-						<img src={ME} alt='Javys Carrero, CEO' />
+				<a href='#contact'>
+					<div className='about__me'>
+						<div className='about__me-image'>
+							<img src={ME} alt='Javys Carrero, CEO' />
+						</div>
 					</div>
-				</div>
+				</a>
 
 				<div className='about__content'>
 					<div className='about__cards'>
@@ -34,16 +36,16 @@ const About = () => {
 							<h5>Quality</h5>
 							<small>High Resolution, Professionally Edited</small>
 						</article>
-
-						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus aut, mollitia eligendi ut atque cumque nobis quis, voluptatibus at necessitatibus beatae accusamus,
-							dolores iure pariatur et eveniet porro dolorum ab.
-						</p>
-
-						<a href='#contact' className='btn btn__primary'>
-							Let's Talk
-						</a>
 					</div>
+
+					<p>
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus aut, mollitia eligendi ut atque cumque nobis quis, voluptatibus at necessitatibus beatae accusamus, dolores
+						iure pariatur et eveniet porro dolorum ab.
+					</p>
+
+					<a href='#contact' className='btn btn__primary'>
+						Let's Talk
+					</a>
 				</div>
 			</div>
 		</section>

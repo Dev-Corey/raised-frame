@@ -3,22 +3,10 @@
 	padding: 0;
 }
 
-/* Hero Video */
-
-/* .mainHero {
-	width: 100%;
-	height: 100vh;
-	position: absolute;
-} */
-
 header,
 .container {
 	width: 100%;
 	height: 100vh;
-	/* padding-top: 7rem; */
-	/* display: flex;
-	justify-content: center;
-	align-items: center;*/
 }
 
 video {
